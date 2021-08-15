@@ -3,4 +3,4 @@
 
 Bu çalışmamda verilen giriş değerleri ile bir liste oluşturdum.
 
-![Form-png](C:\JS\Form-Sample\Form.png)
+![Form-png](https://i.hizliresim.com/9fjqypk.png)
