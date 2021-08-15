@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>Form İnput Value Kullanımı</title>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+</head>
+<body>
+   <div id="alert"></div>
+   
+  <div class="container mt-5">
+       <div class="row">
+           <div class="col-sm-8 offset-sm-2">
+               <form action="" id="userForm">
+
+                   <div class="mb-3">
+                       <label for="username" class="form-label">Öğrenci Adı Soyadı</label>
+                           <input type="text" class="form-control" id="username" name="username">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="score" class="form-label">Not Bilgisi</label>
+                                <input type="number" class="form-control" id="score" name="score">
+                             </div>
+
+                             <div class="mb-3">
+                                <button type="reset" class="btn btn-warning">Temizle</button>
+                                <button type="submit" class="btn btn-success">Gönder</button>     
+                                <button type="button" onclick="onChange()" class="btn btn-danger">Sil</button>   
+                                       
+                             </div>                   
+            </form>
+           </div>
+
+            <div class="col-sm-8 offset-sm-2 mt-4">
+            <ul class="list-group" id="userList"></ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="./form.js"></script>
+</body>
+</html>
