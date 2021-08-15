@@ -1,5 +1,6 @@
-# Formlar Üzerine Çalışma
-##  İnutlardan Çekip Kullandık
+# React Native İle Mobile App Patikası
+## Form Kullanımı 
+
 Bu çalışmamda verilen giriş değerleri ile bir liste oluşturdum.
 
-![alt-text](C:\JS\Form-Sample\Form.png)
+![Form-png](C:\JS\Form-Sample\Form.png)
