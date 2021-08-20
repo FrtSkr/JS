@@ -4,6 +4,7 @@ const toastDOM = document.querySelector(`#toast`)
 
 
 
+
 // Yapıldı işareti sağlayan fonksiyon
 ulDOM.addEventListener(`click`, function(item){
     if(item.target.tagName === `LI`){
@@ -11,6 +12,7 @@ ulDOM.addEventListener(`click`, function(item){
     }
 })
 
+let counter = 0
 // Element ekleyen fonksiyon
 function newElement(){
     const INPUT_VALUE = inputDOM.value
@@ -22,13 +24,17 @@ function newElement(){
     <span class="close">×</span>`;
     ulDOM.append(liDOM);
     $(".success").toast("show");
+    
+    // Local storage'e ekledik
+    localStorage.setItem(`Task-${counter.toString()}`, INPUT_VALUE)
+    counter++;
     }    
 }
 
 // Element silen fonksiyon
 ulDOM.addEventListener(`click`, function(item){
     if(item.target.tagName === "SPAN"){
-        item.target.parentElement.remove();        
+        item.target.parentElement.remove();
     }
 })
 
