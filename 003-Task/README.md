@@ -5,16 +5,16 @@
 
 <b>All Page</b>
 ---
-<img  src="ss/All.png" alt="all" width="250" style="max-width:100%" >
+<img  src="https://github.com/FrtSkr/JS/blob/main/003-Task/ss/All.png" alt="all" width="250" style="max-width:100%" >
 
 <b>Korea Page</b>
 ---
-![korea-png](ss/Korea.png)
+<img  src="https://github.com/FrtSkr/JS/blob/main/003-Task/ss/Korea.png" alt="all" width="250" style="max-width:100%" >
 
 <b>Japan Page</b>
 ---
-![japan-png](ss/Japan.png)
+<img  src="https://github.com/FrtSkr/JS/blob/main/003-Task/ss/Japan.png" alt="all" width="250" style="max-width:100%" >
 
 <b>China Page</b>
 ---
-![china-png](ss/China.png)
+<img  src="https://github.com/FrtSkr/JS/blob/main/003-Task/ss/China.png" alt="all" width="250" style="max-width:100%" >
