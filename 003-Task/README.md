@@ -5,7 +5,7 @@
 
 <b>All Page</b>
 ---
-<div style="text-align:right"><img src="ss/All.png" /></div>
+<img  src="ss/All.png" alt="all" width="250" style="max-width:100%" >
 
 <b>Korea Page</b>
 ---
