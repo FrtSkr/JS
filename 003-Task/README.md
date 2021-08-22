@@ -5,7 +5,7 @@
 
 <b>All Page</b>
 ---
-![all-png](ss/All.png)
+<div style="text-align:center"><img src="ss/All.png" /></div>
 
 <b>Korea Page</b>
 ---
